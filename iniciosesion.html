@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InMediAPP - Iniciar Sesión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+    
+
+    ::-webkit-scrollbar {
+    display: none;
+}
+    
+
+    body{
+        font-family: 'Nunito', sans-serif;
+    width: auto;
+    font-size: 16px;
+    background-image: url(XD.png) ;
+         background-attachment: fixed;
+         background-position: center;
+         background-size: cover;
+       
+        }
+
+    header{
+        height: 50px;
+        background: transparent;
+    }
+
+    .minsalud {
+   margin-top: 5px;
+}
+
+.minsaludlogo{
+    width:150px;
+    height: 30px;
+}
+    
+
+        section{
+            text-align: center;
+            height: 100%;
+            
+
+        }
+
+        ::placeholder{
+            color:rgba(228, 222, 219, 0.621);
+           font-family: 'Nunito', sans-serif;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .titulo{
+            color: #ffffff;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .form-box{
+margin-left: 50px;
+margin-right: 50px;
+width:300px;
+padding: 10px;
+background: transparent;
+text-align: center;
+} 
+
+
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box input[type="submit"] {
+
+border: 0;
+background: none;
+display: block;
+margin: 0px auto;
+padding: 14px 10px;
+text-align: center;
+border-bottom: 2px solid #eea214;
+width: 200px;
+outline: none;
+color: rgb(184, 180, 175);
+transition: 0.20s;
+  
+  }
+
+  .form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+
+width: 280px;
+border-color: #ffffff;
+
+}
+ 
+ 
+ .form-box input[type="submit"]{
+
+border: 0;
+border-radius: 12px;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+color: white ;
+background: none;
+cursor: pointer;
+border-left: 2px solid #eea214;
+border-top: 2px solid #eea214;
+transition: 0.50s;
+ }
+
+ .form-box input[type="submit"]:hover{
+    border-right: 2px solid #eea214;
+border-bottom: 2px solid #eea214;
+border-left: 0;
+border-top: 0;
+background: none;
+
+ }
+    </style>
+    
+    <header>
+        <div class="minsalud">
+            <img class="minsaludlogo" src="minsaludlogo.png" alt="">
+                </div>
+
+    </header>
+
+<section>
+<h1 class="titulo">Incie su sesión de <br> InMediAPP </h1>
+
+
+ <form  class="form-box" id="login" name="login" method="post" action="conexion.php" >
+
+    <p><br>
+    
+    <label for="pass"></label><input type="text" placeholder="Usuario" name="Us" id="user" size"20" class="campo" required="required" ><br>
+    <label for="pass"></label><input type="password" placeholder="Número de identificación"pass" id="pass" size="20" class="campo" required="required" ><br>
+    <label for="pass"></label><input type="password" placeholder="Contraseña" name="pass2" id="pass" size="20" class="campo" required="required" ><br>
+    <br><br>
+    <br>
+    
+    <input type="submit" name="Botón" value="Iniciar Sesión" src="desarrollo.html"/>
+    
+    </form>  
+    
+    
+</div></p> 
+
+</section>
+
+</body>
+</html>
